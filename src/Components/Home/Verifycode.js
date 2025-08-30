@@ -53,7 +53,9 @@ const Verifycode = () => {
             </div>
             <div className="text-end">
               <span>
-                <button className="CenCle">CANCEL</button>
+                <button onClick={() => navigate("/")} className="CenCle">
+                  CANCEL
+                </button>
               </span>
               <input className="verify_1" type="submit" value="VERIFY" />
             </div>
